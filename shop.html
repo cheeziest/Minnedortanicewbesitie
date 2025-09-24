@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shop | Minne-Sorta Nice</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap">
+  <style>
+    body { font-family: 'Roboto', sans-serif; background: #fff9f4; margin: 0; color: #333; }
+    header { background: #ead7c0; padding: 20px 0; text-align: center; }
+    header h1 { margin: 0; font-size: 2em; letter-spacing: 1px; }
+    nav {margin-bottom:20px;}
+    nav a { margin: 0 12px; text-decoration: none; color: #665544; font-weight: 700;}
+    .section { max-width: 1100px; margin: 55px auto; padding: 20px 18px; background: #fff; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,.04);}
+    .section h2 { margin-top:0; font-size: 1.6em; color: #c94c29;}
+    .product-grid {display:flex; flex-wrap:wrap; gap:18px; margin-top:24px;}
+    .product-card {background:#f6ebe7; border:1px solid #ead7c0; border-radius:8px; width:240px; padding:18px 10px; text-align:center; box-sizing:border-box;}
+    .product-card img {width:80px; height:80px; object-fit:cover; border-radius:7px; background:#eee; margin-bottom:10px;}
+    .product-card h3 {margin:10px 0 6px; font-size:1.05em;}
+    .product-card p {font-size:.95em; margin:8px 0;}
+    .price {color:#c94c29; font-weight:bold; margin:8px 0 10px 0;}
+    .btn {background:#c94c29; color:#fff; border:none; padding:8px 14px; border-radius:26px; font-weight:bold; cursor:pointer;}
+    footer {background: #ead7c0; text-align: center; padding: 15px 0; margin-top: 40px;}
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Minne-Sorta Nice Shop</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="shop.html">Shop</a>
+      <a href="about.html">About Us</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <!-- BUNDLES SECTION: Combine several products as a discounted bundle -->
+  <section class="section" id="bundles">
+    <h2>Bundles</h2>
+    <div class="product-grid">
+      <!-- Bundle Product Card Example -->
+      <div class="product-card">
+        <img src="bundle1.jpg" alt="Vanilla Bundle">
+        <h3>Vanilla Bundle</h3>
+        <p>all products vanilla</p>
+        <div class="price">$38</div>
+        <button class="btn">Add to Cart</button>
+      </div>
+      <!-- Add more bundle cards by copying blocks below -->
+    
+    <div class="product-card">
+        <img src="bundle2.jpg" alt="Clean Bundle">
+        <h3>Clean Bundle</h3>
+        <p>all products clean!</p>
+        <div class="price">$35</div>
+        <button class="btn">Add to Cart</button>
+      </div>
+    </div><div class="product-card">
+        <img src="bundle3.jpg" alt="Floral Bundle">
+        <h3>Floral Bundle</h3>
+        <p>all products floral</p>
+        <div class="price">$35</div>
+        <button class="btn">Add to Cart</button>
+      </div>
+    </div>
+    <div class="product-card">
+        <img src="bundle4.jpg" alt="Minnesota Nice Set">
+        <h3>Minnesota Nice Set</h3>
+        <p>Candle, Sugar Scrub, and Lotion—Seasonal Favorites!</p>
+        <div class="price">$35</div>
+        <button class="btn">Add to Cart</button>
+      </div>
+    </div>
+    <div class="product-card">
+        <img src="bundle5.jpg" alt="Sandalwood Bundle">
+        <h3>sandal wood bunle</h3>
+        <p>everything snadalwood</p>
+        <div class="price">$35</div>
+        <button class="btn">Add to Cart</button>
+      </div>
+    </div>
+    <!-- To add more bundles, duplicate .product-card blocks above -->
+  </section>
+
+  <!-- CANDLES SECTION: Individual candle products -->
+  <section class="section" id="candles">
+    <h2>Candles</h2>
+    <div class="product-grid">
+      <!-- Candle Product Card Example -->
+      <div class="product-card">
+        <img src="candle1.jpg" alt="Lake Breeze Candle">
+        <h3>Lake Breeze Candle</h3>
+        <p>Pine, citrus & water lily in soy wax</p>
+        <div class="price">$16</div>
+        <button class="btn">Add to Cart</button>
+      </div>
+      <!-- Add more candle cards here -->
+      <div class="product-card">
+        <img src="candle2.jpg" alt="Cranberry Woods Candle">
+        <h3>Cranberry Woods Candle</h3>
+        <p>Berries and wood spice for cozy evenings</p>
+        <div class="price">$16</div>
+        <button class="btn">Add to Cart</button>
+      </div>
+    </div>
+    <!-- To add more candles, copy .product-card blocks above -->
+  </section>
+
+  <!-- LOTIONS SECTION: Individual lotion products -->
+  <section class="section" id="lotions">
+    <h2>Lotions</h2>
+    <div class="product-grid">
+      <!-- Lotion Product Card Example -->
+      <div class="product-card">
+        <img src="lotion1.jpg" alt="Wildflower Lotion">
+        <h3>Wildflower Lotion</h3>
+        <p>Hydrate gently with wildflower scent</p>
+        <div class="price">$14</div>
+        <button class="btn">Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src="lotion2.jpg" alt="Maple Honey Lotion">
+        <h3>Maple Honey Lotion</h3>
+        <p>Sweet honey and maple for all-day softness</p>
+        <div class="price">$14</div>
+        <button class="btn">Add to Cart</button>
+      </div>
+    </div>
+    <!-- Add more lotions by copying these .product-card blocks -->
+  </section>
+
+  <!-- ROOM SPRAY SECTION: Individual room spray scents -->
+  <section class="section" id="roomspray">
+    <h2>Room Spray</h2>
+    <div class="product-grid">
+      <!-- Room Spray Product Card Example -->
+      <div class="product-card">
+        <img src="roomspray1.jpg" alt="North Woods Room Spray">
+        <h3>North Woods Room Spray</h3>
+        <p>Spruce and cedar for instant freshness</p>
+        <div class="price">$12</div>
+        <button class="btn">Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src="roomspray2.jpg" alt="Birch Blossoms Room Spray">
+        <h3>Birch Blossoms Room Spray</h3>
+        <p>Light floral notes for gentle spring air</p>
+        <div class="price">$12</div>
+        <button class="btn">Add to Cart</button>
+      </div>
+    </div>
+    <!-- To add extra room sprays, copy the above .product-card blocks -->
+  </section>
+
+  <!-- SUGAR SCRUBS SECTION: Individual scrubs -->
+  <section class="section" id="sugarscrubs">
+    <h2>Sugar Scrubs</h2>
+    <div class="product-grid">
+      <!-- Sugar Scrub Product Card Example -->
+      <div class="product-card">
+        <img src="scrub1.jpg" alt="Maple Sugar Scrub">
+        <h3>Maple Sugar Scrub</h3>
+        <p>Exfoliate and soften with maple aroma</p>
+        <div class="price">$13</div>
+        <button class="btn">Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src="scrub2.jpg" alt="Wild Berry Scrub">
+        <h3>Wild Berry Scrub</h3>
+        <p>Fresh berry blend for glowing skin</p>
+        <div class="price">$13</div>
+        <button class="btn">Add to Cart</button>
+      </div>
+    </div>
+    <!-- Expand this section with extra .product-card blocks -->
+  </section>
+
+  <footer>
+    <p>© 2025 Minne-Sorta Nice | info@minnesortanice.com</p>
+  </footer>
+</body>
+</html>
